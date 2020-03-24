@@ -1,32 +1,32 @@
 PODS:
-  - Capacitor (0.0.113):
-    - CapacitorCordova (= 0.0.113)
-    - GCDWebServer (~> 3.0)
-  - CapacitorCordova (0.0.113)
-  - GCDWebServer (3.4.2):
-    - GCDWebServer/Core (= 3.4.2)
-  - GCDWebServer/Core (3.4.2)
-  - SDWebImage (4.4.0):
-    - SDWebImage/Core (= 4.4.0)
-  - SDWebImage/Core (4.4.0)
+  - Capacitor (1.5.1):
+    - CapacitorCordova (= 1.5.1)
+  - CapacitorCordova (1.5.1)
+  - Kingfisher (5.13.2):
+    - Kingfisher/Core (= 5.13.2)
+  - Kingfisher/Core (5.13.2)
+  - SDWebImage (5.6.1):
+    - SDWebImage/Core (= 5.6.1)
+  - SDWebImage/Core (5.6.1)
 
 DEPENDENCIES:
-  - Capacitor
-  - SDWebImage (~> 4.0)
+  - Capacitor (~> 1.5)
+  - Kingfisher (~> 5.0)
+  - SDWebImage (~> 5.6)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - Capacitor
     - CapacitorCordova
-    - GCDWebServer
+    - Kingfisher
     - SDWebImage
 
 SPEC CHECKSUMS:
-  Capacitor: b37060b0b2685257bedbc69e49a54a74ef30fb9a
-  CapacitorCordova: a923a32bc7ad5f1f3d69664ca86ff69580343ed3
-  GCDWebServer: 8d67ee9f634b4bb91eb4b8aee440318a5fc6debd
-  SDWebImage: b534502786e43dde36dfcaee89356fe6df30e203
+  Capacitor: 373adb05f4591a70c22adfe979b5a443ac1e9b0a
+  CapacitorCordova: 169792fba40cc325d70b3cbca49d0563acdf5924
+  Kingfisher: d342c8354c10c3d85a27d6d4c42c41285924b898
+  SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
 
-PODFILE CHECKSUM: 90294a6e9a81f834598df837d887565e326ff8ff
+PODFILE CHECKSUM: 0000df45fd7db9530b26dc1d75a7fddf601197b8
 
 COCOAPODS: 1.8.4
